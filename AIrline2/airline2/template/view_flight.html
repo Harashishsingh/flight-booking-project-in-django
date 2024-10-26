@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>View Flight</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+
+    {% load static %}
+    <link rel="stylesheet" href="{% static '/form.css' %}">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>View-Flight Form</title>
+</head>
+<body>
+    <form action="/view_form" method="post">
+        {% csrf_token %}
+        <input type="text" name="flight_name" placeholder="Enter Flight Name">
+        <br><br>
+        <input type="text" name="dea" placeholder="Enter Departure">
+        <br><br>
+        <input type="text" name="dest" placeholder="Enter Destination">
+        <br><br>
+        <input type="date" name="depart" placeholder="Enter Depart">
+        <br><br>
+        <input type="time" name="time" placeholder="Enter Time">
+        <br><br>
+        <button type="submit">Submit</button>
+    </form>
+
+</body>
+</html>
+</body>
+</html>

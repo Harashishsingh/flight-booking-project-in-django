@@ -1,0 +1,92 @@
+.background-radial-gradient {
+    background-color: hsl(220, 60%, 20%);
+    background-image: radial-gradient(650px circle at 0% 0%,
+        hsl(220, 60%, 35%) 15%,
+        hsl(220, 60%, 30%) 35%,
+        hsl(220, 60%, 25%) 75%,
+        hsl(220, 60%, 20%) 80%,
+        transparent 100%),
+    radial-gradient(1250px circle at 100% 100%,
+        hsl(220, 60%, 45%) 15%,
+        hsl(220, 60%, 30%) 35%,
+        hsl(220, 60%, 25%) 75%,
+        hsl(220, 60%, 20%) 80%,
+        transparent 100%);
+}
+
+#radius-shape-1 {
+    height: 220px;
+    width: 220px;
+    top: -60px;
+    left: -130px;
+    background: radial-gradient(#52006b, #c047ff);
+    overflow: hidden;
+}
+
+#radius-shape-2 {
+    border-radius: 38% 62% 63% 37% / 70% 33% 67% 30%;
+    bottom: -60px;
+    right: -110px;
+    width: 300px;
+    height: 300px;
+    background: radial-gradient(#52006b, #c047ff);
+    overflow: hidden;
+}
+
+.bg-glass {
+    background-color: 	rgb(245,245,245) !important;
+    backdrop-filter: saturate(200%) blur(25px);
+}
+
+.card {
+/* background-image: url(pexels-denniz-futalan-339724-3453030.jpg); Replace with your image URL */
+/* background-size: cover; */
+background-position: center;
+background-repeat: no-repeat;
+color: white; /* Make text readable */
+}
+
+
+h1 {
+    color: hsl(220, 90%, 95%);
+}
+
+h1 span {
+    color: hsl(220, 90%, 75%);
+}
+
+p {
+    color: hsl(220, 89%, 73%);
+}
+
+button i {
+    color: rgb(96,96,96);
+}
+.card {
+    position: relative;
+    overflow: hidden; /* Ensure the image doesn't overflow outside the card */
+}
+
+.card-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    /* height: 100%; */
+    object-fit: cover; /* Ensures the image covers the full card without distortion */
+    z-index: 1;
+}
+
+.card-body {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    /* height: 100%; */
+    z-index: 2;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent overlay for readability */
+    display: flex;
+    align-items: center;  
+}
+
+

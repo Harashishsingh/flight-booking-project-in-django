@@ -1,0 +1,29 @@
+body{
+    background-color: cornflowerblue;
+    color: white;
+}
+input{
+    position: relative;
+    left: 45%;
+    padding: 20px;
+}
+select{
+    position: relative;
+    left: 45%;
+}
+label{
+    position: relative;
+    left: 45%;
+}
+button{
+    position: relative;
+    left: 45%;
+    padding: 15px;
+    background-color: aqua;
+    border: none;
+}
+button:hover{
+    background-color: coral;
+    color: white;
+    transition-duration: 1.5s;
+}

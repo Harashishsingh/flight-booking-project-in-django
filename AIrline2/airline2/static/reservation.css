@@ -1,0 +1,14 @@
+.ticket {
+    border: 1px solid #007bff;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f8f9fa;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+body{
+    background-image: url(img/reservation.jpg);
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 970px;
+}
